@@ -3979,7 +3979,7 @@ body.is-mobile #main > header {
 
 #footer {
   padding: 2em 0 1em 0;
-  background-color: #1d242a;
+  background-color: #d7c6c7;
   text-align: center;
 }
 
@@ -4114,7 +4114,7 @@ body.is-mobile.landing .wrapper.style4 {
 }
 
 body.is-mobile.landing #footer {
-  background-color: #a2798f;
+  background-color: #d7c6c7;
 }
 
 /* our css*/
