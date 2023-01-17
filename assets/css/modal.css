@@ -1,5 +1,18 @@
+.lightwidget__lightbox {
+  z-index: 10008;
+  /* position: relative; */
+}
 
-	.lightwidget__lightbox{
-		z-index: 10008;
-		/* position: relative; */
-	}
+.lightwidget__btn--cta span {
+  display: none;
+}
+
+/* .lightwidget__lightbox-btn-text:hover::before {
+	display: visible;
+  content: "Order Now!";
+} */
+
+.lightwidget__btn--cta:hover::before span {
+	display: visible;
+	content: "Order Now!";
+}
