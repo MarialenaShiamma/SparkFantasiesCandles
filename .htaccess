@@ -1,4 +1,4 @@
-Options +SymLinksIfOwnerMatch 
+<!-- Options +SymLinksIfOwnerMatch 
 RewriteEngine On 
 RewriteCond %{REQUEST_FILENAME} !-f 
 RewriteCond %{REQUEST_FILENAME} !-d
@@ -6,4 +6,4 @@ RewriteRule . /index.html [L]
 
 RewriteEngine On
 RewriteCond %{HTTP_HOST} ^candles.com.cy
-RewriteRule (.*) http://www.candles.com.cy/$1 [R=301,L]
+RewriteRule (.*) http://www.candles.com.cy/$1 [R=301,L] -->
