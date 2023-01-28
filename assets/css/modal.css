@@ -7,12 +7,18 @@
   display: none;
 }
 
-/* .lightwidget__lightbox-btn-text:hover::before {
+.lightwidget__lightbox-btn-text::after {
 	display: visible;
   content: "Order Now!";
-} */
-
+}
+.lightwidget__btn--cta::after span {
+    content: "Order Now!";
+}
 .lightwidget__btn--cta:hover::before span {
-	display: visible;
-	content: "Order Now!";
+  display: visible;
+  content: "Order Now!";
+}
+.lightwidget__btn--cta:hover::after span {
+  display: visible;
+  content: "Order Now!";
 }
