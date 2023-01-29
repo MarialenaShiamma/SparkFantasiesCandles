@@ -2,23 +2,3 @@
   z-index: 10008;
   /* position: relative; */
 }
-
-.lightwidget__btn--cta span {
-  display: none;
-}
-
-.lightwidget__lightbox-btn-text::after {
-	display: visible;
-  content: "Order Now!";
-}
-.lightwidget__btn--cta::after span {
-    content: "Order Now!";
-}
-.lightwidget__btn--cta:hover::before span {
-  display: visible;
-  content: "Order Now!";
-}
-.lightwidget__btn--cta:hover::after span {
-  display: visible;
-  content: "Order Now!";
-}
