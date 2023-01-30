@@ -2,3 +2,7 @@
   z-index: 10008;
   /* position: relative; */
 }
+
+button {
+  font-family: "Montserrat", Georgia, serif;
+}

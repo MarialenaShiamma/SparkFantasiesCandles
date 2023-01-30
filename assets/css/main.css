@@ -3981,6 +3981,7 @@ body.is-mobile #main > header {
   padding: 2em 0 1em 0;
   background-color: #d7c6c7;
   text-align: center;
+  font-weight: 700;
 }
 
 #footer .icons {
@@ -4078,9 +4079,9 @@ body.landing #page-wrapper {
   padding-top: 0;
 }
 
-body.landing #footer {
+/* body.landing #footer {
   background-color: #d7c6c7;
-}
+} */
 
 body.is-mobile.landing #page-wrapper {
   background: none;
@@ -4113,9 +4114,9 @@ body.is-mobile.landing .wrapper.style4 {
   background-size: cover;
 }
 
-body.is-mobile.landing #footer {
+/* body.is-mobile.landing #footer {
   background-color: #d7c6c7;
-}
+} */
 
 /* our css*/
 .smaller-text {
@@ -4128,10 +4129,40 @@ body.is-mobile.landing #footer {
   margin-top: -30px;
 }
 
-.italic{
+.italic {
   font-style: italic;
 }
 
-*, body {
-  font-family: "Lucida Bright", Georgia, serif;
+.logo-big {
+  display: block;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+body.is-mobile.landing .logo-big {
+  width: 300px;
+}
+
+.logo-small {
+  display: block;
+  width: 90px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+svg {
+  color: #fff;
+  fill: #fff;
+  stroke: #fff;
+}
+
+*,
+body {
+  font-family: "Montserrat", Georgia, serif;
+}
+
+h1 h2 h3 h4 h5 h6 title {
+  font-family: "Aboreto", Georgia, serif;
 }
