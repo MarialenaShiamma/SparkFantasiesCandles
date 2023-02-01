@@ -3744,7 +3744,7 @@ body.is-menu-visible #menu {
   bottom: 0;
   color: inherit;
   font-size: 0.8em;
-  height: 8.5em;
+  height: 2em;
   left: 50%;
   letter-spacing: 0.225em;
   margin-left: -12.5em;
@@ -3763,7 +3763,7 @@ body.is-menu-visible #menu {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  bottom: 4em;
+  bottom: 2em;
   content: "";
   display: block;
   height: 1.5em;
@@ -4133,6 +4133,10 @@ body.is-mobile.landing .wrapper.style4 {
   font-style: italic;
 }
 
+.bold-text {
+  font-weight: 700;
+}
+
 .logo-big {
   display: block;
   width: 400px;
@@ -4142,7 +4146,7 @@ body.is-mobile.landing .wrapper.style4 {
 }
 
 body.is-mobile.landing .logo-big {
-  width: 300px;
+  width: 250px;
 }
 
 .logo-small {
@@ -4163,6 +4167,12 @@ body {
   font-family: "Montserrat", Georgia, serif;
 }
 
-h1, h2, h3, h4, h5, h6, title {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+title {
   font-family: "Aboreto", Georgia, serif;
 }
